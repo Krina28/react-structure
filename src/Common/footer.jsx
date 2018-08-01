@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import './common.css';
 
 class Footer extends Component {
   render() {
     return (
-      <div>
-        <div className="main-footer" />
-	        <div className="footer-content">
-	            Footer
-	        </div>
-      </div>
+        <nav className="navbar fixed-bottom navbar-light bg-faded">
+          <a className="navbar-brand"> My React App</a>
+        </nav>
     );
   }
 }
